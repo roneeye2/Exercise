@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace GloboMart.Framwork.Entity
 {
-    public partial class Product : BaseEntity
+    public partial class ProductCategory : BaseEntity
     {
-        
+        public string Discription { get; set; }
+        public int ParentCategoryId { get; set; }
     }
 }
