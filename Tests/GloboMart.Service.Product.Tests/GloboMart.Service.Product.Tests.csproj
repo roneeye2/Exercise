@@ -100,6 +100,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Services\GloboMart.Service.Product\GloboMart.Service.Product.csproj">
+      <Project>{19040de4-c1f9-497e-bb6e-e6d76bbd69bf}</Project>
+      <Name>GloboMart.Service.Product</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

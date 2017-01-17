@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GloboMart.Data
+namespace GloboMart.Framwork.Interface
 {
     public class Class1
     {
