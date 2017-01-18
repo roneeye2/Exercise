@@ -30,6 +30,11 @@ D:\Rohit\R&D\POC\git\Exercise\Services\GloboMart.Service.Order\bin\Antlr3.Runtim
 D:\Rohit\R&D\POC\git\Exercise\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\Exercise\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.dll
 D:\Rohit\R&D\POC\git\Exercise\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Output\GloboMart.Service.Order\bin\GloboMart.Service.Order.dll.config
+D:\Rohit\R&D\POC\git\GloboMart\Output\GloboMart.Service.Order\bin\GloboMart.Service.Order.dll
+D:\Rohit\R&D\POC\git\GloboMart\Output\GloboMart.Service.Order\bin\GloboMart.Service.Order.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.dll
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\GloboMart.Service.Order.dll.config
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\GloboMart.Service.Order.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\GloboMart.Service.Order.pdb
@@ -59,6 +64,3 @@ D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\System.Web.W
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\System.Web.WebPages.Deployment.xml
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\System.Web.WebPages.Razor.xml
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\Antlr3.Runtime.pdb
-D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.csprojResolveAssemblyReference.cache
-D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.dll
-D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.pdb

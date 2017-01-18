@@ -30,3 +30,13 @@ D:\Rohit\R&D\POC\git\GloboMart\Exercise\bin\Antlr3.Runtime.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Exercise\obj\Debug\GloboMart.UI.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\Exercise\obj\Debug\GloboMart.UI.dll
 D:\Rohit\R&D\POC\git\GloboMart\Exercise\obj\Debug\GloboMart.UI.pdb
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.UI.dll.config
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.UI.dll
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.UI.pdb
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Newtonsoft.Json.dll
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Microsoft.Web.Infrastructure.xml
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\System.Web.Http.xml
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\System.Web.Mvc.xml
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\obj\Debug\GloboMart.UI.dll
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\obj\Debug\GloboMart.UI.pdb

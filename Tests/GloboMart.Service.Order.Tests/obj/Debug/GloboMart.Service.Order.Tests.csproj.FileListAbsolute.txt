@@ -36,14 +36,6 @@ D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\New
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Optimization.dll
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Service.Order.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Microsoft.Web.Infrastructure.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Net.Http.Formatting.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.WebHost.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Mvc.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Razor.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.WebPages.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Optimization.xml
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\obj\Debug\GloboMart.Service.Order.Tests.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\obj\Debug\GloboMart.Service.Order.Tests.dll
