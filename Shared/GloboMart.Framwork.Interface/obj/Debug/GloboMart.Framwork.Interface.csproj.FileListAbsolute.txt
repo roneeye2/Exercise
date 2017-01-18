@@ -1,0 +1,5 @@
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Interface\bin\Debug\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Interface\bin\Debug\GloboMart.Framwork.Interface.pdb
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Interface\obj\Debug\GloboMart.Framwork.Interface.csprojResolveAssemblyReference.cache
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Interface\obj\Debug\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Interface\obj\Debug\GloboMart.Framwork.Interface.pdb

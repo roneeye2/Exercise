@@ -1,0 +1,5 @@
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Container.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Container.pdb
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.csprojResolveAssemblyReference.cache
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.pdb

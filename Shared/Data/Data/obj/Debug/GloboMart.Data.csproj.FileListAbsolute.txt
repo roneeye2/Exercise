@@ -1,0 +1,12 @@
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\GloboMart.Data.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\GloboMart.Data.pdb
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\obj\Debug\GloboMart.Data.csprojResolveAssemblyReference.cache
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\obj\Debug\GloboMart.Data.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\obj\Debug\GloboMart.Data.pdb
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\GloboMart.Data.dll.config
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\EntityFramework.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\GloboMart.Framwork.Entity.dll
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\GloboMart.Framwork.Entity.pdb
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\EntityFramework.xml
+D:\Rohit\R&D\POC\git\Exercise\Shared\Data\Data\bin\Debug\EntityFramework.SqlServer.xml
