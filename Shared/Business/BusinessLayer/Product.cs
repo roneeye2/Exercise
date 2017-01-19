@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace GloboMart.Business
 {
-    public class Class1
+    public class Product : IProduct
     {
+        void IProduct.Show()
+        {
+ 
+        }
+    }
+
+    public interface IProduct
+    {
+        void Show();
     }
 }

@@ -5,5 +5,15 @@ D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\obj\Debug\Glob
 D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Container.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Container.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.csprojResolveAssemblyReference.cache
