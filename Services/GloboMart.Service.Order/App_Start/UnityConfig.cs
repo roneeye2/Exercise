@@ -1,0 +1,20 @@
+using GloboMart.Framwork.Container;
+using Microsoft.Practices.Unity;
+using System.Web.Http;
+
+namespace GloboMart.Service.Order
+{
+    public static class UnityConfig
+    {
+        public static void RegisterComponents()
+        {
+            var container = Bootstrapper.Initialise();
+            
+            // register all your components with the container here
+            // it is NOT necessary to register your controllers
+            
+            // e.g. container.RegisterType<ITestService, TestService>();
+            GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
+        }
+    }
+}

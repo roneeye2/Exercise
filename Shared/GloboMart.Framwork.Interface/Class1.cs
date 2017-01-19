@@ -8,5 +8,9 @@ namespace GloboMart.Framwork.Interface
 {
     public class Class1
     {
+        public void show()
+        {
+ 
+        }
     }
 }

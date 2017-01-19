@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GloboMart.Business;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,6 +10,13 @@ namespace GloboMart.Service.Product.Controllers
 {
     public class ValuesController : ApiController
     {
+        public IProduct product { get; set; }
+
+        public ValuesController(IProduct product)
+        {
+            this.product = product;
+        }
+
         // GET api/values
         public IEnumerable<string> Get()
         {

@@ -1,4 +1,5 @@
 ﻿using GloboMart.Business;
+using GloboMart.Framwork.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;

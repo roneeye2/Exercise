@@ -10,5 +10,7 @@ namespace GloboMart.Framwork.Entity
     {
         public string Discription { get; set; }
         public int ParentCategoryId { get; set; }
+
+        public ICollection<Product> Products { get; set; }
     }
 }

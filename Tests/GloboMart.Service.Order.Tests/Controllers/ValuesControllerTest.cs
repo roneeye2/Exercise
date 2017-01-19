@@ -7,17 +7,20 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GloboMart.Service.Order;
 using GloboMart.Service.Order.Controllers;
+using GloboMart.Framwork.Container;
+using Microsoft.Practices.Unity;
 
 namespace GloboMart.Service.Order.Tests.Controllers
 {
     [TestClass]
     public class ValuesControllerTest
     {
+        private ValuesController controller = Bootstrapper.Initialise().Resolve<ValuesController>();
+
         [TestMethod]
         public void Get()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
 
             // Act
             IEnumerable<string> result = controller.Get();
@@ -33,7 +36,6 @@ namespace GloboMart.Service.Order.Tests.Controllers
         public void GetById()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
 
             // Act
             string result = controller.Get(5);
@@ -46,7 +48,6 @@ namespace GloboMart.Service.Order.Tests.Controllers
         public void Post()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
 
             // Act
             controller.Post("value");
@@ -58,7 +59,6 @@ namespace GloboMart.Service.Order.Tests.Controllers
         public void Put()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
 
             // Act
             controller.Put(5, "value");
@@ -70,7 +70,6 @@ namespace GloboMart.Service.Order.Tests.Controllers
         public void Delete()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
 
             // Act
             controller.Delete(5);

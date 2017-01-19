@@ -13,9 +13,6 @@ namespace GloboMart.Service.Order
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            var container = new UnityContainer();
-            container.RegisterType<IProduct, Product>(new HierarchicalLifetimeManager());
-            config.DependencyResolver = new UnityResolver(container);
 
             // Web API routes
             config.MapHttpAttributeRoutes();

@@ -8,6 +8,6 @@ namespace GloboMart.Framwork.Entity
 {
     public partial class Product : BaseEntity
     {
-        
+        public ProductCategory ProductCategory { get; set; }
     }
 }
