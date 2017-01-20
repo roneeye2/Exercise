@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GloboMart.Framwork.Interface
+﻿namespace GloboMart.Framwork.Interface
 {
-    public class Class1
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    public interface IHTTPCRUD 
     {
-        public void show()
-        {
- 
-        }
+        
+
     }
 }

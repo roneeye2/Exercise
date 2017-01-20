@@ -1,4 +1,5 @@
 ﻿using GloboMart.Business;
+using GloboMart.Framwork.Interface.Business;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,11 @@ using System.Web.Http;
 
 namespace GloboMart.Service.Order.Controllers
 {
-    public class ValuesController : ApiController
+    public class OrderController : ApiController
     {
-        public IProduct product { get; set; }
+        public IProductDomain product { get; set; }
 
-        public ValuesController(IProduct product)
+        public OrderController(IProductDomain product)
         {
             this.product = product;
         }

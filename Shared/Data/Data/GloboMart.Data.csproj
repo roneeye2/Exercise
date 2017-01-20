@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GloboMartContext.cs" />
+    <Compile Include="ProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +62,10 @@
     <ProjectReference Include="..\..\GloboMart.Framwork.Entity\GloboMart.Framwork.Entity.csproj">
       <Project>{20bb291e-a0c8-4701-b3a8-f73ba684d8fb}</Project>
       <Name>GloboMart.Framwork.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GloboMart.Framwork.Interface\GloboMart.Framwork.Interface.csproj">
+      <Project>{1d78efb6-2228-4403-ad2a-dbe37403f701}</Project>
+      <Name>GloboMart.Framwork.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

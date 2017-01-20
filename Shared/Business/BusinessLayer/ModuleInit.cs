@@ -1,4 +1,5 @@
-﻿using GloboMart.Framwork.Container;
+﻿using GloboMart.Framwork.Interface;
+using GloboMart.Framwork.Interface.Business;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -13,7 +14,7 @@ namespace GloboMart.Business
     {
         public void Initialize(IModuleRegistrar registrar)
         {
-            registrar.RegisterType<IProduct, Product>();
+            registrar.RegisterType<IProductDomain, ProductDomain>();
         }
     }
 }

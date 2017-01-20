@@ -146,7 +146,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,6 +174,10 @@
     <ProjectReference Include="..\..\Shared\GloboMart.Framwork.Container\GloboMart.Framwork.Container.csproj">
       <Project>{4b450bb0-9595-41c7-ba33-c2477259d86d}</Project>
       <Name>GloboMart.Framwork.Container</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\GloboMart.Framwork.Interface\GloboMart.Framwork.Interface.csproj">
+      <Project>{1d78efb6-2228-4403-ad2a-dbe37403f701}</Project>
+      <Name>GloboMart.Framwork.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

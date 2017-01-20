@@ -79,3 +79,5 @@ D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\Antlr3.Runti
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\obj\Debug\GloboMart.Service.Order.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\Unity.WebApi.dll
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Order\bin\GloboMart.Framwork.Interface.pdb

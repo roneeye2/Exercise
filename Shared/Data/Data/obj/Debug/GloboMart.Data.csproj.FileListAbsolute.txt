@@ -22,3 +22,5 @@ D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\bin\Debug\EntityFramework.SqlSer
 D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\obj\Debug\GloboMart.Data.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\obj\Debug\GloboMart.Data.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\obj\Debug\GloboMart.Data.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\bin\Debug\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\Data\Data\bin\Debug\GloboMart.Framwork.Interface.pdb

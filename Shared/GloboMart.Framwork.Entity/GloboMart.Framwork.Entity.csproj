@@ -45,6 +45,12 @@
     <Compile Include="ProductPriceSchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GloboMart.Framwork.Interface\GloboMart.Framwork.Interface.csproj">
+      <Project>{1d78efb6-2228-4403-ad2a-dbe37403f701}</Project>
+      <Name>GloboMart.Framwork.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

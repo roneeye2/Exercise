@@ -15,7 +15,7 @@ namespace GloboMart.Service.Order.Tests.Controllers
     [TestClass]
     public class ValuesControllerTest
     {
-        private ValuesController controller = Bootstrapper.Initialise().Resolve<ValuesController>();
+        private OrderController controller = Bootstrapper.Initialise().Resolve<OrderController>();
 
         [TestMethod]
         public void Get()

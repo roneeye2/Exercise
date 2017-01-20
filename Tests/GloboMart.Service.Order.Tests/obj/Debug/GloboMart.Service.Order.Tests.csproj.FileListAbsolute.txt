@@ -40,7 +40,6 @@ D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Mic
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Optimization.dll
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Business.dll
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Service.Order.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Framwork.Container.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
@@ -50,6 +49,15 @@ D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Mic
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Microsoft.Web.Infrastructure.xml
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Optimization.xml
-D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Business.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\obj\Debug\GloboMart.Service.Order.Tests.dll
 D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\obj\Debug\GloboMart.Service.Order.Tests.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.dll
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Unity.WebApi.dll
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.xml
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Rohit\R&D\POC\git\GloboMart\Tests\GloboMart.Service.Order.Tests\bin\Debug\GloboMart.Framwork.Interface.pdb

@@ -1,6 +1,7 @@
 namespace GloboMart.Data
 {
     using GloboMart.Framwork.Entity;
+    using GloboMart.Framwork.Interface.Entity;
     using System;
     using System.Data.Entity;
     using System.Linq;
@@ -21,8 +22,8 @@ namespace GloboMart.Data
         // Add a DbSet for each entity type that you want to include in your model. For more information 
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
-         public virtual DbSet<Product> Products { get; set; }
-         public virtual DbSet<ProductCategory> ProductCategories { get; set; }
-         public virtual DbSet<ProductPriceSchedule> ProductPriceSchedules { get; set; }
+         public virtual DbSet<IProduct> Products { get; set; }
+         public virtual DbSet<IProductCategory> ProductCategories { get; set; }
+         public virtual DbSet<IProductPriceSchedule> ProductPriceSchedules { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using GloboMart.Business;
 using GloboMart.Framwork.Interface;
+using GloboMart.Framwork.Interface.Business;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace GloboMart.UI.Controllers
 {
     public class HomeController : Controller
     {
-        public IProduct product { get; set; }
+        public IProductDomain product { get; set; }
 
-        public HomeController(IProduct product)
+        public HomeController(IProductDomain product)
         {
             this.product = product;
         }

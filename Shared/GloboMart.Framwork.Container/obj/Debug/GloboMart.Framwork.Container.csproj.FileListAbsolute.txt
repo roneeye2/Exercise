@@ -16,3 +16,6 @@ D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Mic
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Interface.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\bin\Debug\GloboMart.Framwork.Interface.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Container\obj\Debug\GloboMart.Framwork.Container.csprojResolveAssemblyReference.cache

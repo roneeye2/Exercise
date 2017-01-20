@@ -41,13 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ModuleInit.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="ProductBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GloboMart.Framwork.Container\GloboMart.Framwork.Container.csproj">
-      <Project>{4b450bb0-9595-41c7-ba33-c2477259d86d}</Project>
-      <Name>GloboMart.Framwork.Container</Name>
+    <ProjectReference Include="..\..\GloboMart.Framwork.Interface\GloboMart.Framwork.Interface.csproj">
+      <Project>{1d78efb6-2228-4403-ad2a-dbe37403f701}</Project>
+      <Name>GloboMart.Framwork.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

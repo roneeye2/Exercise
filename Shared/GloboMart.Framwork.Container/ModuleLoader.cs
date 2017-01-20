@@ -1,4 +1,5 @@
-﻿using Microsoft.Practices.Unity;
+﻿using GloboMart.Framwork.Interface;
+using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
