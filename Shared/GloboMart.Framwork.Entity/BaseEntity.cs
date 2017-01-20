@@ -19,7 +19,7 @@ namespace GloboMart.Framwork.Entity
         public DateTime CreatedDate
         {
             get {
-                if (createdDate == null)
+                if (createdDate == DateTime.MinValue)
                     return DateTime.Now;
                 return createdDate; 
             }
@@ -31,7 +31,7 @@ namespace GloboMart.Framwork.Entity
         {
             get
             {
-                if (updatedDate == null)
+                if (updatedDate == DateTime.MinValue)
                     return DateTime.Now;
                 return updatedDate;
             }

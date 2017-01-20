@@ -26,13 +26,13 @@ namespace GloboMart.Service.Order.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            //productModel.Id = 1;
-            //productModel.Name = "ABC";
-            //productModel.ProductCategory = CategoryModel;
-            //productModel.ProductCategory.Name = "Shoes";
-            //productModel.ProductCategory.Id = 1;
+            productModel.Id = 1;
+            productModel.Name = "ABC";
+            productModel.ProductCategory = CategoryModel;
+            productModel.ProductCategory.Name = "Shoes";
+            productModel.ProductCategory.Id = 1;
 
-            var p = product.Read();
+            var p = product.Create(productModel);
 
             return new string[] { "value1", "value2" };
         }
