@@ -241,6 +241,10 @@
       <Project>{fd6dc9c3-df98-41d3-bd91-20f3c979d020}</Project>
       <Name>GloboMart.Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Data\Data\GloboMart.Data.csproj">
+      <Project>{69d0557e-d4ac-4772-9c0b-22592b59c7a2}</Project>
+      <Name>GloboMart.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Shared\GloboMart.Framwork.Container\GloboMart.Framwork.Container.csproj">
       <Project>{4b450bb0-9595-41c7-ba33-c2477259d86d}</Project>
       <Name>GloboMart.Framwork.Container</Name>

@@ -12,9 +12,31 @@ namespace GloboMart.Framwork.Entity
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
-        public DateTime CreatedDate { get; set; }
         public int CreatedById { get; set; }
-        public DateTime UpdatedDate { get; set; }
         public int UpdatedById { get; set; }
+
+        private DateTime createdDate;
+        public DateTime CreatedDate
+        {
+            get {
+                if (createdDate == null)
+                    return DateTime.Now;
+                return createdDate; 
+            }
+            set { createdDate = value; }
+        }
+
+        private DateTime updatedDate;
+        public DateTime UpdatedDate
+        {
+            get
+            {
+                if (updatedDate == null)
+                    return DateTime.Now;
+                return updatedDate;
+            }
+            set { updatedDate = value; }
+        }
+        
     }
 }

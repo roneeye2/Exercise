@@ -5,8 +5,8 @@ D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMa
 D:\Rohit\R&D\POC\git\Exercise\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\bin\Debug\GloboMart.Framwork.Entity.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\bin\Debug\GloboMart.Framwork.Entity.pdb
-D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.dll
-D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.pdb
-D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\bin\Debug\GloboMart.Framwork.Interface.dll
 D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\bin\Debug\GloboMart.Framwork.Interface.pdb
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.csprojResolveAssemblyReference.cache
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.dll
+D:\Rohit\R&D\POC\git\GloboMart\Shared\GloboMart.Framwork.Entity\obj\Debug\GloboMart.Framwork.Entity.pdb

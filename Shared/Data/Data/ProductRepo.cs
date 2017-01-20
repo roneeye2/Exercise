@@ -2,6 +2,7 @@
 {
     using GloboMart.Framwork.Entity;
     using GloboMart.Framwork.Interface.Data;
+    using GloboMart.Framwork.Interface.Entity;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -17,36 +18,43 @@
             this.dbContext = dbContext;
         }
 
-        public Framwork.Interface.Entity.IProduct Create(Framwork.Interface.Entity.IProduct obj)
+        public IProduct Create(IProduct obj)
         {
             if (obj == null)
                 return obj;
 
-            dbContext.Products.Add(obj);
+            obj = dbContext.Products.Add(new Product { 
+                Id = obj.Id,
+                Name = obj.Name
+            });
             dbContext.SaveChanges();
             return obj;
         }
 
-        public IEnumerable<Framwork.Interface.Entity.IProduct> Read()
+        public IEnumerable<IProduct> Read()
         {
             return dbContext.Products;
         }
 
-        public Framwork.Interface.Entity.IProduct Read(int id)
+        public IProduct Read(int id)
         {
             return dbContext.Products.FirstOrDefault(p => p.Id == id);
         }
 
-        public Framwork.Interface.Entity.IProduct Update(Framwork.Interface.Entity.IProduct obj)
+        public IProduct Update(IProduct obj)
         {
             throw new NotImplementedException();
         }
 
-        public bool Delete(Framwork.Interface.Entity.IProduct obj)
+        public bool Delete(IProduct obj)
         {
             try
             {
-                dbContext.Products.Remove(obj);
+                dbContext.Products.Remove(new Product
+                {
+                    Id = obj.Id,
+                    Name = obj.Name
+                });
                 dbContext.SaveChanges();
                 return true;
             }

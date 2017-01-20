@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\IProductDomain.cs" />
+    <Compile Include="Data\IProductCategoryRepo.cs" />
     <Compile Include="Entity\IBaseEntity.cs" />
     <Compile Include="Entity\IProduct.cs" />
     <Compile Include="Class1.cs" />

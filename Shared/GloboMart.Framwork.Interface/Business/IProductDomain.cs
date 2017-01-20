@@ -9,7 +9,8 @@ namespace GloboMart.Framwork.Interface.Business
 {
     public interface IProductDomain : IDisposable
     {
-        IProduct Create();
+        IProduct Create(IProduct product);
+        IEnumerable<IProduct> Read();
         IEnumerable<IProduct> ReadByCategory(IProductCategory category);
         bool Delete(IProduct product);
     }
