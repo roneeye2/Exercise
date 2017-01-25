@@ -3,10 +3,17 @@ namespace GloboMart.Data
     using GloboMart.Framwork.Entity;
     using GloboMart.Framwork.Interface.Entity;
     using System;
+    using System.Collections;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Linq;
 
-    public class GloboMartContext : DbContext
+    interface IDbContext
+    {
+
+    }
+
+    internal class GloboMartContext : DbContext
     {
         // Your context has been configured to use a 'GloboMartModel' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
@@ -26,5 +33,18 @@ namespace GloboMart.Data
          public virtual DbSet<Product> Products { get; set; }
          public virtual DbSet<ProductCategory> ProductCategories { get; set; }
          public virtual DbSet<ProductPriceSchedule> ProductPriceSchedules { get; set; }
+
+
+         protected override void OnModelCreating(DbModelBuilder modelBuilder)
+         {
+             //Configure domain classes using modelBuilder here
+
+             //one-to-many 
+             modelBuilder.Entity<Product>()
+             .HasRequired<IProductCategory>(p => p.ProductCategory);
+                         //.WithMany(c => c.Products); // Standard entity includes many Students entities
+
+             base.OnModelCreating(modelBuilder);
+         }
     }
 }

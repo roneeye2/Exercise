@@ -1,64 +1,74 @@
-﻿using GloboMart.Framwork.Interface.Data;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
 using GloboMart.Framwork.Interface.Entity;
+using GloboMart.Framwork.Interface.Enum;
+using GloboMart.Framwork.Interface.Data;
+using GloboMart.Framwork.Interface;
+using GloboMart.Framwork.Entity;
 
 namespace GloboMart.Data
 {
-    public class DatabaseDefaultEntries
+    internal class DatabaseDefaultEntries : IDbEntries
     {
-        public DatabaseDefaultEntries(
-            IProduct _ProductModel,
-            IProductCategory _ProductCategoryModel,
-            IProductCategoryRepo _ProductCategoryRepo,
-            IProductRepo _ProductRepo
-            )
+        private GloboMartContext CurrentDbContext;
+        public DatabaseDefaultEntries(GloboMartContext dbContext)
         {
-            ProductModel = ProductModel;
-            ProductCategoryModel = ProductCategoryModel;
-            ProductCategoryRepo = ProductCategoryRepo;
-            ProductRepo = ProductRepo;
+            CurrentDbContext = dbContext;
+        }
+        public void Execute()
+        {
+            FillCategories();
+            //var category = FillCategories();
+            //FillProduct(category);
         }
 
-        //[Dependency]
-        private static IProduct ProductModel { get; set; }
-       // [Dependency]
-        private static IProductCategory ProductCategoryModel { get; set; }
-
-        //[Dependency]
-        private static IProductCategoryRepo ProductCategoryRepo { get; set; }
-        //[Dependency]
-        private static IProductRepo ProductRepo { get; set; }
-
-        public static void Execute()
+        private IProductCategory FillCategories()
         {
-            var category = FillCategories();
-            FillProduct(category);
+            new ProductCategoryRepository(CurrentDbContext).Create(new ProductCategory
+            {
+                Name = eProductCategory.Cloths,
+                Discription = "",
+            });
+
+            new ProductCategoryRepository(CurrentDbContext).Create(new ProductCategory
+            {
+                Name = eProductCategory.Mobile,
+                Discription = "",
+            });
+
+            new ProductCategoryRepository(CurrentDbContext).Create(new ProductCategory
+            {
+                Name = eProductCategory.PC,
+                Discription = "",
+            });
+
+            new ProductCategoryRepository(CurrentDbContext).Create(new ProductCategory
+            {
+                Name = eProductCategory.Footware,
+                Discription = "",
+            });
+
+            return new ProductCategoryRepository(CurrentDbContext).Create(new ProductCategory
+            {
+                Name = eProductCategory.Vehicle,
+                Discription = "",
+            });
         }
 
-        private static IProductCategory FillCategories()
-        {
-            var category = ProductCategoryModel;
-            category.Name = "Mobile";
-            category.IsActive = true;
-            category.Discription = "";
-            return ProductCategoryRepo.Create(category);
-        }
+        //private static void FillProduct(IProductCategory category)
+        //{
+        //    var product = _this.ProductModel;
+        //    product.Name = "IPhone";
+        //    product.ProductCategory = category;
+        //    _this.ProductRepo.Create(product);
 
-        private static void FillProduct(IProductCategory category)
-        {
-            var product = ProductModel;
-            product.Name = "IPhone";
-            product.ProductCategory = category;
-            ProductRepo.Create(product);
-
-            product.Name = "Samsung";
-            product.ProductCategory = category;
-            ProductRepo.Create(product);
-        }
+        //    product.Name = "Samsung";
+        //    product.ProductCategory = category;
+        //    _this.ProductRepo.Create(product);
+        //}
     }
 }

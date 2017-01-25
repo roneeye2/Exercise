@@ -10,17 +10,29 @@ namespace GloboMart.Framwork.Entity
     public class BaseEntity : IBaseEntity
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public bool IsActive { get; set; }
         public int CreatedById { get; set; }
         public int UpdatedById { get; set; }
 
+        private string name = string.Empty;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        
+        private bool isActive = true;
+        public bool IsActive
+        {
+            get { return isActive; }
+            set { isActive = value; }
+        }
+        
         private DateTime createdDate;
         public DateTime CreatedDate
         {
             get {
                 if (createdDate == DateTime.MinValue)
-                    return DateTime.Now;
+                    createdDate = DateTime.Now;
                 return createdDate; 
             }
             set { createdDate = value; }
@@ -32,7 +44,7 @@ namespace GloboMart.Framwork.Entity
             get
             {
                 if (updatedDate == DateTime.MinValue)
-                    return DateTime.Now;
+                    updatedDate = DateTime.Now;
                 return updatedDate;
             }
             set { updatedDate = value; }

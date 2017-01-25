@@ -1,6 +1,7 @@
 ﻿using GloboMart.Framwork.Entity;
 using GloboMart.Framwork.Interface.Data;
 using GloboMart.Framwork.Interface.Entity;
+using GloboMart.Framwork.Interface.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace GloboMart.Data
 {
-    public class ProductCategoryRepository : IProductCategoryRepo
+    internal class ProductCategoryRepository : IProductCategoryRepo
     {
           private GloboMartContext dbContext;
 
@@ -22,13 +23,8 @@ namespace GloboMart.Data
           {
               if (obj == null)
                   return obj;
-              obj = dbContext.ProductCategories.Add(new ProductCategory
-              {
-                  Name = obj.Name,
-                  Discription = obj.Discription,
-                  IsActive = true,
-              });
 
+              obj = dbContext.ProductCategories.Add((ProductCategory)obj);
               dbContext.SaveChanges();
 
               return obj;
@@ -39,9 +35,10 @@ namespace GloboMart.Data
               throw new NotImplementedException();
           }
 
-          public IProductCategory Read(int id)
+          public IProductCategory Read(eProductCategory category)
           {
-              throw new NotImplementedException();
+              var result = dbContext.ProductCategories.FirstOrDefault(c => c.Name == category);
+              return (IProductCategory)result;
           }
 
           public IProductCategory Update(IProductCategory obj)

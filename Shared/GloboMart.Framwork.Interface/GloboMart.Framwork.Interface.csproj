@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\ICategoryDomain.cs" />
     <Compile Include="Business\IProductDomain.cs" />
+    <Compile Include="Data\IDbEntries.cs" />
     <Compile Include="Data\IProductCategoryRepo.cs" />
     <Compile Include="Entity\IBaseEntity.cs" />
     <Compile Include="Entity\IProduct.cs" />
@@ -50,6 +52,7 @@
     <Compile Include="Data\IProductRepo.cs" />
     <Compile Include="Entity\IProductCategory.cs" />
     <Compile Include="Entity\IProductPriceSchedule.cs" />
+    <Compile Include="Enum\enumProductCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -51,6 +51,7 @@ D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\System.Web
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\System.Web.Http.WebHost.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\Unity.WebApi.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\EntityFramework.dll
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Framwork.Entity.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Business.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Data.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Framwork.Container.pdb
@@ -66,8 +67,7 @@ D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\System.Web
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\System.Web.Http.WebHost.xml
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\Microsoft.Web.Infrastructure.xml
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\EntityFramework.xml
+D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Framwork.Entity.pdb
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\obj\Debug\GloboMart.Service.Product.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\obj\Debug\GloboMart.Service.Product.dll
 D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\obj\Debug\GloboMart.Service.Product.pdb
-D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Framwork.Entity.dll
-D:\Rohit\R&D\POC\git\GloboMart\Services\GloboMart.Service.Product\bin\GloboMart.Framwork.Entity.pdb

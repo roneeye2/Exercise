@@ -8,6 +8,7 @@
 
     public interface IProduct : IBaseEntity
     {
+        int CategoryId { get; set; }
         IProductCategory ProductCategory { get; set; }
     }
 }

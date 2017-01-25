@@ -1,4 +1,5 @@
 ﻿using GloboMart.Framwork.Interface.Entity;
+using GloboMart.Framwork.Interface.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace GloboMart.Framwork.Interface.Data
 {
     public interface IProductCategoryRepo : ICRUD<IProductCategory>
     {
+        IProductCategory Read(eProductCategory id);
     }
 }

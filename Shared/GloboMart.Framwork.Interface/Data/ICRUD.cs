@@ -10,7 +10,6 @@ namespace GloboMart.Framwork.Interface.Data
     {
         T Create(T obj);
         IEnumerable<T> Read();
-        T Read(int id);
         T Update(T obj);
         bool Delete(T obj);
     }

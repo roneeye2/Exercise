@@ -1,14 +1,15 @@
 ﻿namespace GloboMart.Service.Product.Controllers
 {
     using GloboMart.Framwork.Interface;
-using GloboMart.Framwork.Interface.Business;
-using GloboMart.Framwork.Interface.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
+    using GloboMart.Framwork.Interface.Business;
+    using GloboMart.Framwork.Interface.Entity;
+    using GloboMart.Framwork.Interface.Enum;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Net;
+    using System.Net.Http;
+    using System.Web.Http;
 
     public class ProductController : ApiController
     {
@@ -28,9 +29,6 @@ using System.Web.Http;
         {
             productModel.Id = 1;
             productModel.Name = "ABC";
-            productModel.ProductCategory = CategoryModel;
-            productModel.ProductCategory.Name = "Shoes";
-            productModel.ProductCategory.Id = 1;
 
             product.Create(productModel);
 

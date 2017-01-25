@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryDomain.cs" />
     <Compile Include="ModuleInit.cs" />
     <Compile Include="ProductDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

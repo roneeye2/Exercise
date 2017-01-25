@@ -55,6 +55,7 @@ D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\System.Web.WebPages.Razor.dll
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Unity.Mvc5.dll
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Unity.WebApi.dll
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\EntityFramework.dll
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Framwork.Entity.dll
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Business.pdb
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Data.pdb
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Framwork.Container.pdb
@@ -76,8 +77,7 @@ D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\System.Web.WebPages.Deploymen
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\System.Web.WebPages.Razor.xml
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\Microsoft.Web.Infrastructure.xml
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\EntityFramework.xml
+D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Framwork.Entity.pdb
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\obj\Debug\GloboMart.UI.csprojResolveAssemblyReference.cache
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\obj\Debug\GloboMart.UI.dll
 D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\obj\Debug\GloboMart.UI.pdb
-D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Framwork.Entity.dll
-D:\Rohit\R&D\POC\git\GloboMart\UI\GloboMart.UI\bin\GloboMart.Framwork.Entity.pdb

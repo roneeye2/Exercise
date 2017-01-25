@@ -17,9 +17,11 @@ namespace GloboMart.Data
         public void Initialize(IModuleRegistrar registrar)
         {
             registrar.RegisterType<IProductRepo, ProductRepository>();
+            registrar.RegisterType<IProductCategoryRepo, ProductCategoryRepository>();
             registrar.RegisterType<IProduct, Product>();
             registrar.RegisterType<IProductCategory, ProductCategory>();
             registrar.RegisterType<IProductPriceSchedule, ProductPriceSchedule>();
+            registrar.RegisterType<IDbEntries, DatabaseDefaultEntries>();
         }
     }
 }

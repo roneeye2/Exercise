@@ -9,7 +9,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class ProductRepository : IProductRepo
+    internal class ProductRepository : IProductRepo
     {
         private GloboMartContext dbContext;
 
@@ -23,10 +23,7 @@
             if (obj == null)
                 return obj;
 
-            obj = dbContext.Products.Add(new Product { 
-                Id = obj.Id,
-                Name = obj.Name
-            });
+            obj = dbContext.Products.Add((Product)obj);
             dbContext.SaveChanges();
             return obj;
         }

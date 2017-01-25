@@ -1,6 +1,7 @@
 ﻿using GloboMart.Business;
 using GloboMart.Framwork.Interface.Business;
 using GloboMart.Framwork.Interface.Entity;
+using GloboMart.Framwork.Interface.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,14 +14,14 @@ namespace GloboMart.Service.Order.Controllers
     public class OrderController : ApiController
     {
         public IProductDomain product { get; set; }
+        public ICategoryDomain categoryDomain { get; set; }
         public IProduct productModel { get; set; }
-        public IProductCategory CategoryModel { get; set; }
 
-        public OrderController(IProductDomain product, IProduct productModel, IProductCategory category)
+        public OrderController(IProductDomain product, IProduct productModel, ICategoryDomain categoryDomain)
         {
             this.product = product;
             this.productModel = productModel;
-            this.CategoryModel = category;
+            this.categoryDomain = categoryDomain;
         }
 
         // GET api/values
@@ -28,9 +29,7 @@ namespace GloboMart.Service.Order.Controllers
         {
             productModel.Id = 1;
             productModel.Name = "ABC";
-            productModel.ProductCategory = CategoryModel;
-            productModel.ProductCategory.Name = "Shoes";
-            productModel.ProductCategory.Id = 1;
+            productModel.ProductCategory = categoryDomain.ReadByCategory(eProductCategory.Footware);
 
             var p = product.Create(productModel);
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GloboMart.Framwork.Interface.Data;
+using Microsoft.Practices.Unity;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -7,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace GloboMart.Data
 {
-    public class GloboMartDBInitializer : DropCreateDatabaseIfModelChanges<GloboMartContext>
+    internal class GloboMartDBInitializer : DropCreateDatabaseIfModelChanges<GloboMartContext>
     {
         protected override void Seed(GloboMartContext context)
         {
-            DatabaseDefaultEntries.Execute();
+            new DatabaseDefaultEntries(context).Execute();
 
             base.Seed(context);
         }

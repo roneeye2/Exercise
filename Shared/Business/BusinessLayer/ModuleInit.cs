@@ -15,6 +15,7 @@ namespace GloboMart.Business
         public void Initialize(IModuleRegistrar registrar)
         {
             registrar.RegisterType<IProductDomain, ProductDomain>();
+            registrar.RegisterType<ICategoryDomain, CategoryDomain>();
         }
     }
 }

@@ -9,7 +9,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class ProductDomain : IProductDomain
+    internal class ProductDomain : IProductDomain
     {
         public IProductRepo repo;
         public ProductDomain(IProductRepo repo)
